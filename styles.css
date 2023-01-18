@@ -267,7 +267,7 @@ facts
 .facts-container{
     padding: 0 8rem;
     /* border: 2px solid #000080 ; */
-    background: var(--primary-color-3);
+    background: var(--primary-color-2);
     height: 18rem; 
     display: flex; 
 }
@@ -284,16 +284,17 @@ facts
     font-size: 1.25rem;
     justify-content: space-between;
     align-items: center;
-    color: var(--primary-color-5);
+    color: var(--primary-color-4);
     text-transform: capitalize;
 }
 .facts-items h2,.facts-items  p{
-    color: var(--primary-color-5);
+    color: var(--primary-color-4);
     background: none;
     font-weight: 400;
 }
 .facts-items p{
     font-size: 0.9rem;
+    
 }
 .icon{
     grid-row-start: 1;
@@ -311,6 +312,7 @@ facts
     display: flex;
     justify-items: center;
     align-items: center;
+    
 }
 .number{
     /* border: 2px solid #000080; */
@@ -822,4 +824,7 @@ footer
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
+}
+.email p{
+    max-width: 5rem;
 }
