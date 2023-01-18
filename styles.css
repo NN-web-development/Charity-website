@@ -267,7 +267,7 @@ facts
 .facts-container{
     padding: 0 8rem;
     /* border: 2px solid #000080 ; */
-    background: var(--primary-color-5);
+    background: var(--primary-color-2);
     height: 18rem; 
     display: flex; 
 }
@@ -825,6 +825,4 @@ footer
     grid-column-end: 5;
     text-align: center;
 }
-.email p{
-    max-width: 5rem;
-}
+
