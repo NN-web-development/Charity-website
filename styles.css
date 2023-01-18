@@ -149,7 +149,7 @@ hero
     grid-template-rows: 3rem 1fr 1fr 5rem;
     /* gap: 1rem; */
     background: url(./images/Web\ 1920\ –\ 1.png);
-    ackground-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover
 }
