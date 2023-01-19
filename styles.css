@@ -217,6 +217,42 @@ hero
     background: none;
     border-bottom: 3px solid var(--primary-color-2);
 }
+@media screen and (max-width:576px){
+    .home-page-container{
+        background: var(--primary-color-1);
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-container{
+        /* padding: 0 8rem; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center
+        ;
+        flex-direction: column;
+        /* gap: 2rem; */
+        /* border: 2px solid #030201; */
+        /* background: var(--primary-color-3); */
+    }
+    .hero-img{
+        visibility: hidden;
+    }
+    .nav-button{
+        visibility: hidden;
+    }
+    .call-to-action{
+        visibility: hidden;
+    }
+    .hero-main-text h1{
+        width: 100vw;
+        text-align: center;
+    }
+    .hero-sub-text p{
+        text-align: center;
+        width: 100vw;
+    }
+}
 /* ==========
 nav
 ========== */
@@ -326,6 +362,35 @@ facts
     grid-column-start: 2;
     grid-column-end: 3;
 }
+@media screen and (max-width:576px){
+    .facts-items{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;   
+        padding: 2rem 0; 
+        
+    }
+    .facts-items li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: fit-content;
+        /* border: 2px solid black; */
+        
+    }
+    .facts-items p{
+        width: 10rem;
+        /* border: 2px solid black; */
+    }
+    .facts-container{
+        height: fit-content;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+    }
+}
 /* ==========
 about
 ========== */
@@ -363,6 +428,28 @@ about
 }
 .about-sub-text p{
     font-size:1.25rem ;
+}
+@media screen and (max-width:576px){
+    .about-text-container{
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .about-container{
+        padding: 5rem 0;
+        height: fit-content;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
 }
 
 /* ==========
@@ -432,6 +519,37 @@ features
     padding: 2rem;
     box-shadow: 0 0 1rem var(--primary-color-3) ;
     gap: 1.25rem;
+    
+}
+@media screen and (max-width:576px){
+    .features-container{
+        max-width: 100vw;
+        text-align: center;
+        height: fit-content;
+        padding: 0;
+        padding-bottom:  4rem;
+       
+    }
+    .features-text{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding-bottom: 3rem;
+    
+    }
+    .features-cards-con{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        height: fit-content;  
+        gap: 1rem;      
+    }
+    .features-card{
+        width: 100vw;
+        max-width: 100vw;
+        padding: 0.5rem;
+    }
     
 }
 /* ==========
@@ -561,6 +679,29 @@ gallery
   .carousel-button.next {
     right: 1rem;
   }
+  @media screen and (max-width:576px){
+    .carousel{
+        height: 40vh;
+        width: 100vw;
+    }
+    .gallery-container{
+        padding: 0;
+        height: fit-content;
+    }
+    .gallery-main-text h1{
+        width: 100vw;
+        max-width: 100vw;
+    }
+    .gallery-text{
+        width: 100vw;
+        max-width: 100vw;
+    }
+    .gallery-slideshow{
+        padding: 0;
+    }
+    
+    
+}
 /* ==========
 random img
 ========== */
@@ -616,6 +757,27 @@ random img
     margin: 0 8rem;
     font-size: 1.25rem;
 }
+@media screen and (max-width:576px){
+    .random-img{
+        height: fit-content;
+        max-height: fit-content;
+    }
+    .text-container{
+        padding: 0;
+    }
+    .random-img-main-text h1{
+        text-align: left;
+        padding: 0;
+        max-width: 65rem;
+    }
+    .random-img-sub-text p{
+        text-align: left;
+        padding: 0;
+        max-width: 100vw;
+    }
+    
+    
+}
 /* ==========
 contributions
 ========== */
@@ -656,7 +818,7 @@ contributions
     position: relative;
     bottom: 5rem;
     right: 15rem;
-    max-width: 35rem;
+    max-width: 32rem;
 }
 .contributions-text{
     padding-bottom: 3rem;
@@ -824,5 +986,6 @@ footer
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
+    padding-top: 2rem;
 }
 
