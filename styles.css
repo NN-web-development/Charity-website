@@ -148,7 +148,7 @@ hero
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 3rem 1fr 1fr 5rem;
     /* gap: 1rem; */
-    background: url(./images/Web\ 1920\ –\ 2.png);
+    background: url(./images/Web\ 1920\ –\ 3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
@@ -180,7 +180,7 @@ hero
 
 .nav-button{
     text-align: center;
-    background: var(--primary-color-2);
+    background: none;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
