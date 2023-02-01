@@ -419,7 +419,7 @@ facts
         flex-direction: column;
         gap: 3rem;   
         padding: 2rem 0; 
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .facts-items li{
         display: flex;
