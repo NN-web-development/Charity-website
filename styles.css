@@ -1234,6 +1234,7 @@ footer
     display: flex;
     flex-direction: column;
     max-height: fit-content;
+    justify-content: space-evenly;
     /* border: 2px solid #000080 ; */
 }
 .footer-info{
